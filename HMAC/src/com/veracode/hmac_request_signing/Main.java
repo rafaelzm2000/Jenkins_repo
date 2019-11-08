@@ -21,6 +21,9 @@ import org.json.JSONObject;
 
 public class Main {
 
+// Introducing a flaw
+String password = "password";
+
 private static final String URL_BASE = "api.veracode.com";
 private static final String URL_PATH = "/appsec/v1/applications/";
 private static final String GET = "GET";
