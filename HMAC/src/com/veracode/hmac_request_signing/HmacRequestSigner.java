@@ -12,6 +12,11 @@ import javax.crypto.spec.SecretKeySpec;
 import javax.xml.bind.DatatypeConverter;
  
 public final class HmacRequestSigner {
+	
+	//error for scan testing
+	String password1 = "Password";
+	String password2 = "Password";
+	String password3 = "Password";
  
     // Included in the signature to inform Veracode of the signature version.
     private static final String VERACODE_REQUEST_VERSION_STRING = "vcode_request_version_1";

@@ -23,6 +23,9 @@ public class Main {
 
 // Introducing a flaw
 String password = "password";
+String password1 = "Password";
+String password2 = "Password";
+String password3 = "Password";
 
 private static final String URL_BASE = "api.veracode.com";
 private static final String URL_PATH = "/appsec/v1/applications/";
